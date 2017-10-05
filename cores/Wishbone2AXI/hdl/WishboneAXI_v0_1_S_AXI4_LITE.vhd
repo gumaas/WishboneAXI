@@ -415,7 +415,6 @@ begin
   s_axi_s2m.BVALID  <= axi_bvalid;
   s_axi_s2m.ARREADY <= axi_arready;
   s_axi_s2m.RDATA(31 downto 0)   <= axi_rdata;
-  s_axi_s2m.RDATA(127 downto 32)   <= (others => '0');
   s_axi_s2m.RRESP   <= axi_rresp;
   s_axi_s2m.RVALID  <= axi_rvalid;
 

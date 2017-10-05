@@ -33,8 +33,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 package axi_helpers_pkg is
 constant c_axi4_address_width : integer := 32;
-constant c_axi4_data_width : integer := 128;
-constant c_axi4_id_width : integer := 4;
+constant c_axi4_data_width : integer := 32;
+constant c_axi4_id_width : integer := 12;
 
 type t_axi_interface_mode is (AXI4, AXI4LITE);
 
